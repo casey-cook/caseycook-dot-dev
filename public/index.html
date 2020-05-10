@@ -1,47 +1,114 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+		<title>Casey Cook - Fullstack Javascript Developer</title>
 
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/7.14.3/firebase-app.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/7.14.3/firebase-auth.js"></script>
-    <script defer src="/__/firebase/7.14.3/firebase-database.js"></script>
-    <script defer src="/__/firebase/7.14.3/firebase-messaging.js"></script>
-    <script defer src="/__/firebase/7.14.3/firebase-storage.js"></script>
-    <!-- initialize the SDK after all desired features are loaded -->
-    <script defer src="/__/firebase/init.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Manrope&display=swap" rel="stylesheet">
-    <style>
+		<!-- update the version number as needed -->
+		<script defer src="/__/firebase/7.14.3/firebase-app.js"></script>
+		<!-- include only the Firebase features as you need -->
+		<script defer src="/__/firebase/7.14.3/firebase-auth.js"></script>
+		<script defer src="/__/firebase/7.14.3/firebase-database.js"></script>
+		<script defer src="/__/firebase/7.14.3/firebase-messaging.js"></script>
+		<script defer src="/__/firebase/7.14.3/firebase-storage.js"></script>
+		<!-- initialize the SDK after all desired features are loaded -->
+		<script defer src="/__/firebase/init.js"></script>
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+			crossorigin="anonymous"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css?family=Manrope&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css?family=Roboto: 100,300,400,500&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<nav
+			id="navMain"
+			class="nav navbar navbar-expand-md navbar-dark"
+			style="background-color: #4c5451;"
+		>
+			<button
+				type="button"
+				class="navbar-toggler"
+				data-toggle="collapse"
+				data-target="#navbarCollapse"
+			>
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
-      body {
-        background-color: #18C29C;
-      }
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<div class="ml-4 navbar-nav mr-auto">
+					<a href="#" class="nav-item nav-link"
+						><img height="40px" src="./img/logo.png"
+					/></a>
+				</div>
+				<div class="navbar-nav mr-4">
+					<a href="#" class="nav-item nav-link">Projects</a>
+					<a href="#" class="nav-item nav-link">Skills</a>
+					<a href="#" class="nav-item nav-link">About</a>
+					<a href="#" id="blueOutline" class="nav-item nav-link" tabindex="-1"
+						>Contact</a
+					>
+				</div>
+			</div>
+		</nav>
 
-      .comingSoon {
-        font-family: 'Manrope', sans-serif;
-        color: white;
-        text-align: right; 
-        margin: auto 200px;
-        max-width: 700px;
+		<header class="splash">
+			<div class="container">
+				<div class="row">
+					<div class="col mt-3"><h1>Casey Cook</h1></div>
+				</div>
+				<div class="row">
+					<div class="col"><h2>Full-Stack Javascript Developer</h2></div>
+				</div>
+				<div class="row mt-4">
+					<div
+						style="max-width: 160px; flex: 1;"
+						id="blueOutline"
+						class="col mx-auto mt-5"
+					>
+						<a><h3>see my work</h3></a>
+					</div>
+				</div>
+				<div class="row mt-4">
+					<div id="chevron" class="col">
+						<i class="material-icons">expand_more</i>
+					</div>
+				</div>
+			</div>
+		</header>
 
-      }
+		<script
+			src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+			integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+			crossorigin="anonymous"
+		></script>
 
-    </style>
-
-    <!-- <button onclick='googleLogin()'>Login with Google</button> -->
-
-  </head>
-  <body>
-        <div class='comingSoon'>
-        <h1>caseycook.dev</h1>
-        <h2>coming soon</h2>
-        <img display='inline' src="/guy.png" alt="">
-        </div>
-   <!-- <script src='app.js'></script> -->
-    
-  </body>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+			integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+			crossorigin="anonymous"
+		></script>
+	</body>
 </html>
