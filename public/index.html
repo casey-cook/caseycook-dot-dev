@@ -36,11 +36,12 @@
 			href="https://fonts.googleapis.com/icon?family=Material+Icons"
 			rel="stylesheet"
 		/>
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 	</head>
 	<body>
 		<nav
 			id="navMain"
-			class="nav navbar navbar-expand-md navbar-dark"
+			class="nav navbar navbar-expand-sm navbar-dark"
 			style="background-color: #4c5451;"
 		>
 			<button
@@ -59,10 +60,10 @@
 					/></a>
 				</div>
 				<div class="navbar-nav mr-4">
-					<a href="#" class="nav-item nav-link">Projects</a>
+					<a href="#projects" class="nav-item nav-link">Projects</a>
 					<a href="#" class="nav-item nav-link">Skills</a>
 					<a href="#" class="nav-item nav-link">About</a>
-					<a href="#" id="blueOutline" class="nav-item nav-link" tabindex="-1"
+					<a href="#" class="nav-item nav-link" tabindex="-1" id="blueOutline"
 						>Contact</a
 					>
 				</div>
@@ -72,10 +73,10 @@
 		<header class="splash">
 			<div class="container">
 				<div class="row">
-					<div class="col mt-3"><h1>Casey Cook</h1></div>
+					<div class="col mt-5"><h1>Casey Cook</h1></div>
 				</div>
 				<div class="row">
-					<div class="col"><h2>Full-Stack Javascript Developer</h2></div>
+					<div class="col"><h3>Full-Stack Javascript Developer</h3></div>
 				</div>
 				<div class="row mt-4">
 					<div
@@ -83,16 +84,75 @@
 						id="blueOutline"
 						class="col mx-auto mt-5"
 					>
-						<a><h3>see my work</h3></a>
+						<a href="#projects"><h4>see my work</h4></a>
 					</div>
 				</div>
 				<div class="row mt-4">
 					<div id="chevron" class="col">
-						<i class="material-icons">expand_more</i>
+						<a href="#projects"><i class="material-icons">expand_more</i></a>
 					</div>
 				</div>
 			</div>
 		</header>
+
+		<section id="projects">
+			<div class="container">
+				<div class="row">
+					<div class="mt-4 mb-3 pt-5 col col-12 text-center">
+						<h2>Projects</h2>
+					</div>
+				</div>
+				<div class="row mt-4">
+					<div class="col-12 col-md-6 mb-4">
+						<div data-aos="fade-up" data-aos-duration="800" id="testDiv">
+							<div class="flip-card">
+								<div class="flip-card-inner">
+									<div class="flip-card-front">
+										<img
+											src="./img/example.png"
+											alt="Avatar"
+											style="width: 300px; height: 300px;"
+										/>
+									</div>
+									<div class="flip-card-back">
+										<h1>John Doe</h1>
+										<p>Architect & Engineer</p>
+										<p>We love that guy</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-6">
+						<div
+							data-aos="fade-up"
+							data-aos-duration="800"
+							data-aos-delay="400"
+							id="testDiv"
+						>
+							TEST 2
+						</div>
+					</div>
+				</div>
+				<div class="row mt-4">
+					<div class="col-12 col-md-6 mb-4">
+						<div data-aos="fade-up" data-aos-duration="800" id="testDiv">
+							TEST 1
+						</div>
+					</div>
+					<div class="col-12 col-md-6">
+						<div
+							data-aos="fade-up"
+							data-aos-duration="800"
+							data-aos-delay="400"
+							id="testDiv"
+						>
+							TEST 2
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
 		<script
 			src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -110,5 +170,9 @@
 			integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
 			crossorigin="anonymous"
 		></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+			AOS.init();
+		</script>
 	</body>
 </html>
