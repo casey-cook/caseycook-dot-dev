@@ -41,7 +41,7 @@
 	<body>
 		<nav
 			id="navMain"
-			class="nav navbar navbar-expand-sm navbar-dark"
+			class="nav navbar navbar-expand-sm navbar-dark fixed-top"
 			style="background-color: #4c5451;"
 		>
 			<button
@@ -61,9 +61,9 @@
 				</div>
 				<div class="navbar-nav mr-4">
 					<a href="#projects" class="nav-item nav-link">Projects</a>
-					<a href="#" class="nav-item nav-link">Skills</a>
-					<a href="#" class="nav-item nav-link">About</a>
-					<a href="#" class="nav-item nav-link" tabindex="-1" id="blueOutline"
+					<a href="#about" class="nav-item nav-link">About</a>
+					<a href="#tech" class="nav-item nav-link">Tech</a>
+					<a href="#contact" class="nav-item nav-link" tabindex="-1" id="blueOutline"
 						>Contact</a
 					>
 				</div>
@@ -102,7 +102,7 @@
 						<h2>Projects</h2>
 					</div>
 				</div>
-				<div class="row mt-4">
+				<div class="row mt-4 pt-4">
 					<div class="col-12 col-md-6 mb-4">
 						<div data-aos="fade-up" data-aos-duration="800" id="testDiv">
 							<div class="flip-card">
@@ -134,10 +134,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="row mt-4">
+				<div class="row mt-4 pb-5">
 					<div class="col-12 col-md-6 mb-4">
 						<div data-aos="fade-up" data-aos-duration="800" id="testDiv">
-							TEST 1
+							TEST 3
 						</div>
 					</div>
 					<div class="col-12 col-md-6">
@@ -147,10 +147,60 @@
 							data-aos-delay="400"
 							id="testDiv"
 						>
-							TEST 2
+							TEST 4
 						</div>
 					</div>
 				</div>
+			</div>
+		</section>
+
+		<section id="about">
+			<div class="container">
+				<div class="row">
+					<div class="mt-5 mb-3 pt-5 col col-12 text-center">
+						<h2>About Me</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col col-12 mt-5 text-center">
+						<img style='border-radius: 50%;'height='250em'src= './img/face.jpg' >
+					</div>
+				</div>
+				<div class="row col-10 mt-5 mb-5 pt-1 mx-auto">
+					<p id='aboutText'>
+						Hello! My name is Casey and I’m a full-stack web developer with a passion for solving problems with code and bringing user experiences to life. I am currently a student at NuCamp coding bootcamp where I am studying Javascript, React, Redux, MongoDB, and other modern web technololgies.
+						<br/>
+						<br/>
+						When I’m not reading or coding, I enjoy snowboarding and producing electronic music with Ableton.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<section id="resume">
+			<div class="container">
+				<div class="row pt-4">
+					<div
+						style="max-width: 225px;"
+						id="blueOutline"
+						class="col col-12 mx-auto text-center mt-2"
+					>
+						<a href="./download.txt" download><h4>download resume</h4></a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section id="tech">
+			<div class="container">
+				<div class="row">
+					<div class="mt-4 mb-3 pt-5 col col-12 text-center">
+						<h2>Technologies</h2>
+					</div>
+				</div>
+			
+			
 			</div>
 		</section>
 
@@ -174,5 +224,6 @@
 		<script>
 			AOS.init();
 		</script>
+		<script src='app.js'></script>
 	</body>
 </html>
