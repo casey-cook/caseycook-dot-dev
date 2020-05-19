@@ -5,7 +5,11 @@ html {
 .body {
 	max-width: 1080px;
   font-family: 'Roboto', sans-serif;
+}
 
+.container{
+  max-width:800px;
+  margin:0 auto;/*make it centered*/
 }
 
 
@@ -159,7 +163,6 @@ h4 {
 
 #about {
   background-color: white;
-  min-height: 100vh;
 }
 
 #about h2 {
@@ -168,7 +171,7 @@ h4 {
 
 #aboutText {
   text-align: center;
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 
 #resume {
@@ -186,9 +189,24 @@ h4 {
   min-height: 100vh;
 }
 
+#all-rows {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
 #tech h2 {
   color: #4A5958;
 }
 
+#tech img {
+  max-width: 75%;
+}
+
+#tech p {
+  font-size: 1.2em;
+  font-weight: 500;
+  color: #4A5958;
+  padding-bottom: 15px;
+}
 
 
