@@ -8,7 +8,7 @@ html {
 }
 
 .container{
-  max-width:800px;
+  max-width:900px;
   margin:0 auto;/*make it centered*/
 }
 
@@ -156,7 +156,7 @@ h4 {
 }
 
 .flip-card-back {
-  background-color: #2980b9;
+  background-color: #4C5451;
   color: white;
   transform: rotateY(180deg);
 }
@@ -184,13 +184,9 @@ h4 {
   min-height: 100vh;
 }
 
-#tech {
-  background-color: white;
-  min-height: 100vh;
-}
 
 #all-rows {
-  max-width: 700px;
+  max-width: 80%;;
   margin: 0 auto;
 }
 
@@ -199,7 +195,7 @@ h4 {
 }
 
 #tech img {
-  max-width: 75%;
+  max-width: 80%;
 }
 
 #tech p {
@@ -209,4 +205,62 @@ h4 {
   padding-bottom: 15px;
 }
 
+@media screen and (max-width: 600px) {
+  #tech p{
+    font-size: 1em;
+    }
+  }
 
+#contact {
+  background-color: #4A5958;
+
+}
+
+#con-left {
+  background-image: url('./img/contact.png');
+  background-position: center;
+  background-size: cover;
+}
+
+
+@media screen and (max-width: 800px) {
+  #con-left{
+    display: none;
+    }
+  #small-contact{
+    display: none;
+  }  
+  }
+
+#form {
+  text-align: left;
+  color: white;
+}
+
+#form button {
+  background-color: #00AAFF;
+  color: white;
+}
+
+#send {
+  text-align: right;
+}
+
+footer {
+  height: 100%;
+  background-color: #4C5451;
+}
+
+footer img {
+  width: 38px;
+}
+
+footer ul {
+  color: white;
+  list-style: none;
+  text-align: right;
+}
+
+.foot-li {
+  font-size: .75em;
+}
