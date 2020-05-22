@@ -3,7 +3,7 @@ html {
 }
 
 .body {
-	max-width: 1080px;
+  max-width: 1080px;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -213,7 +213,6 @@ h4 {
 
 #contact {
   background-color: #4A5958;
-
 }
 
 #con-left {
