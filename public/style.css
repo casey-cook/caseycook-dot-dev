@@ -3,7 +3,8 @@ html {
 }
 
 .body {
-	max-width: 1080px;
+	max-width: 1000px;
+	min-width: 480px;
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -25,6 +26,13 @@ a:hover {
 	position: fixed;
 	transition: top 0.3s;
 }
+
+@media screen and (max-width: 575px) {
+	#nav-logo {
+		display: none;
+	}
+}
+
 
 #navMain a {
 	color: white;
@@ -48,6 +56,12 @@ a:hover {
 	outline: solid;
 	outline-width: 2px;
 	outline-color: #61caff;
+}
+
+@media screen and (max-width: 575px) {
+	#blueOutline {
+		outline: none;
+	}
 }
 
 #mask {
@@ -161,6 +175,10 @@ h4 {
 	border-radius: 6px;
 }
 
+.flip-card a {
+	color: #a0dfff;
+}
+
 .card-btm {
 	height: 140px;
 	border-radius: 6px;
@@ -225,7 +243,7 @@ h4 {
 }
 
 #all-rows {
-	max-width: 80%;
+	max-width: 70%;
 	margin: 0 auto;
 }
 
@@ -234,7 +252,7 @@ h4 {
 }
 
 #tech img {
-	max-width: 80%;
+	width: 75px;
 }
 
 #tech p {
@@ -283,6 +301,10 @@ h4 {
 	text-align: right;
 }
 
+.footer-link {
+	color: #a0dfff;
+}
+
 footer {
 	height: 100%;
 	background-color: #4c5451;
@@ -299,5 +321,19 @@ footer ul {
 }
 
 .foot-li {
-	font-size: 0.75em;
+	font-size: 0.8em;
+}
+
+#linked-in {
+	padding-left: 0px;
+}
+
+#small-contact {
+	padding-right: 0px;
+}
+
+@media screen and (max-width: 950px) {
+	#con-icons {
+		padding-left: 50px;
+	}
 }
