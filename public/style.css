@@ -1,30 +1,29 @@
 html {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 .body {
-  max-width: 1080px;
-  font-family: 'Roboto', sans-serif;
+	max-width: 1080px;
+	font-family: 'Roboto', sans-serif;
 }
 
-.container{
-  max-width:900px;
-  margin:0 auto;/*make it centered*/
+.container {
+	max-width: 900px;
+	margin: 0 auto; /*make it centered*/
 }
-
 
 a {
-  color: white;
+	color: white;
 }
 
 a:hover {
-  text-decoration: none;
-  color: white;
+	text-decoration: none;
+	color: white;
 }
 
 .navbar {
-  position: fixed;
-  transition: top 0.3s; 
+	position: fixed;
+	transition: top 0.3s;
 }
 
 #navMain a {
@@ -52,16 +51,16 @@ a:hover {
 }
 
 #mask {
-  background-color: black;
-  width: 100%;
-  height:100%;
-  opacity: 20%;
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	opacity: 20%;
 }
 
 .splash {
 	width: 100%;
-  height: 110vh;
-  margin-top: -72px;
+	height: 110vh;
+	margin-top: -72px;
 	background: url('./img/splashmasked.png') no-repeat center center/cover;
 	display: flex;
 	flex-direction: column;
@@ -77,9 +76,9 @@ h1 {
 }
 
 @media screen and (max-width: 600px) {
-h1{
-  font-size: 4em;
-  }
+	h1 {
+		font-size: 4em;
+	}
 }
 
 h2 {
@@ -95,11 +94,10 @@ h3 {
 }
 
 @media screen and (max-width: 600px) {
-  h3{
-    font-size: 2em;
-    }
-  }
-  
+	h3 {
+		font-size: 2em;
+	}
+}
 
 h4 {
 	color: white;
@@ -112,201 +110,192 @@ h4 {
 }
 
 #projects {
-  background-color: #4A5958;
-  min-height: 100vh;
+	background-color: #4a5958;
+	min-height: 100vh;
 }
 
 #testDiv {
-  height: 300px;
+	height: 300px;
 }
 
-
 .flip-card {
-  background-color: transparent;
-  width: 100%;
-  height: 100%;
-  perspective: 1000px;
+	background-color: transparent;
+	width: 100%;
+	height: 100%;
+	perspective: 1000px;
 }
 
 .flip-card-inner {
-  height: 100%;
-  text-align: center;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	height: 100%;
+	text-align: center;
+	transition: transform 0.6s;
+	transform-style: preserve-3d;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
+	transform: rotateY(180deg);
 }
 
 .flip-card-front {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-} 
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
 
 .flip-card-front {
-  background-color: #bbb;
-  color: black;
-  border-radius: 6px;
+	background-color: #bbb;
+	color: black;
+	border-radius: 6px;
 }
 
 .flip-card-back {
-  background-color: #586B70;
-  height: 100%;
-  color: white;
-  transform: rotateY(180deg);
-  border-radius: 6px;
+	background-color: #586b70;
+	height: 100%;
+	color: white;
+	transform: rotateY(180deg);
+	border-radius: 6px;
 }
 
 .card-btm {
-  height: 140px;
-  border-radius: 6px;
-  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+	height: 140px;
+	border-radius: 6px;
+	filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .card-top {
-  height: 150px;
-  
+	height: 150px;
 }
 
 .proj-title {
-  background-color: #92A6A0;
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
-  font-size: .75em;
-  
+	background-color: #92a6a0;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	font-size: 0.75em;
 }
 
 .proj-desc {
-  background-color: #686355;
-  text-align: left;
-  font-size: .9em;
-  font-weight: 300;
-  
+	background-color: #686355;
+	text-align: left;
+	font-size: 0.9em;
+	font-weight: 300;
 }
 
 #card-front-1 {
-  background-image: url(../development/ExportedPngs/camping.png);
+	background-image: url(../public/img/camping.png);
 }
 
 #card-front-2 {
-  background-image: url(../development/ExportedPngs/modernoffice.png);
-  background-position: center;
+	background-image: url(../public/img/modernoffice.png);
+	background-position: center;
 }
 
 #card-front-3 {
-  background-image: url(../development/ExportedPngs/wetlands.png);
-
+	background-image: url(../public/img/wetlands.png);
 }
 
 #card-front-4 {
-  background-image: url(../development/ExportedPngs/bolognese.png);
-
+	background-image: url(../public/img/bolognese.png);
 }
 
 #about {
-  background-color: white;
+	background-color: white;
 }
 
 #about h2 {
-  color: #4A5958;
+	color: #4a5958;
 }
 
 #aboutText {
-  text-align: center;
-  font-size: 1.2em;
+	text-align: center;
+	font-size: 1.2em;
 }
 
 #resume {
-  background-color: #4A5958;
-  height: 100px;
+	background-color: #4a5958;
+	height: 100px;
 }
 
 #tech {
-  background-color: white;
-
+	background-color: white;
 }
 
-
 #all-rows {
-  max-width: 80%;;
-  margin: 0 auto;
+	max-width: 80%;
+	margin: 0 auto;
 }
 
 #tech h2 {
-  color: #4A5958;
+	color: #4a5958;
 }
 
 #tech img {
-  max-width: 80%;
+	max-width: 80%;
 }
 
 #tech p {
-  font-size: 1.2em;
-  font-weight: 500;
-  color: #4A5958;
-  padding-bottom: 15px;
+	font-size: 1.2em;
+	font-weight: 500;
+	color: #4a5958;
+	padding-bottom: 15px;
 }
 
 @media screen and (max-width: 600px) {
-  #tech p{
-    font-size: 1em;
-    }
-  }
+	#tech p {
+		font-size: 1em;
+	}
+}
 
 #contact {
-  background-color: #4A5958;
+	background-color: #4a5958;
 }
 
 #con-left {
-  background-image: url('./img/contact.png');
-  background-position: center;
-  background-size: cover;
+	background-image: url('./img/contact.png');
+	background-position: center;
+	background-size: cover;
 }
 
-
 @media screen and (max-width: 800px) {
-  #con-left{
-    display: none;
-    }
-  #small-contact{
-    display: none;
-  }  
-  }
+	#con-left {
+		display: none;
+	}
+	#small-contact {
+		display: none;
+	}
+}
 
 #form {
-  text-align: left;
-  color: white;
+	text-align: left;
+	color: white;
 }
 
 #form button {
-  background-color: #00AAFF;
-  color: white;
+	background-color: #00aaff;
+	color: white;
 }
 
 #send {
-  text-align: right;
+	text-align: right;
 }
 
 footer {
-  height: 100%;
-  background-color: #4C5451;
+	height: 100%;
+	background-color: #4c5451;
 }
 
 footer img {
-  width: 38px;
+	width: 38px;
 }
 
 footer ul {
-  color: white;
-  list-style: none;
-  text-align: right;
+	color: white;
+	list-style: none;
+	text-align: right;
 }
 
 .foot-li {
-  font-size: .75em;
+	font-size: 0.75em;
 }
