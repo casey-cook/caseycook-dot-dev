@@ -129,8 +129,6 @@ h4 {
 }
 
 .flip-card-inner {
-  position: relative;
-  width: 100%;
   height: 100%;
   text-align: center;
   transition: transform 0.6s;
@@ -142,23 +140,72 @@ h4 {
   transform: rotateY(180deg);
 }
 
-.flip-card-front, .flip-card-back {
+.flip-card-front {
   position: absolute;
   width: 100%;
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-}
+} 
 
 .flip-card-front {
   background-color: #bbb;
   color: black;
+  border-radius: 6px;
 }
 
 .flip-card-back {
-  background-color: #4C5451;
+  background-color: #586B70;
+  height: 100%;
   color: white;
   transform: rotateY(180deg);
+  border-radius: 6px;
+}
+
+.card-btm {
+  height: 140px;
+  border-radius: 6px;
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.card-top {
+  height: 150px;
+  
+}
+
+.proj-title {
+  background-color: #92A6A0;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  font-size: .75em;
+  
+}
+
+.proj-desc {
+  background-color: #686355;
+  text-align: left;
+  font-size: .9em;
+  font-weight: 300;
+  
+}
+
+#card-front-1 {
+  background-image: url(../development/ExportedPngs/camping.png);
+}
+
+#card-front-2 {
+  background-image: url(../development/ExportedPngs/modernoffice.png);
+  background-position: center;
+}
+
+#card-front-3 {
+  background-image: url(../development/ExportedPngs/wetlands.png);
+
+}
+
+#card-front-4 {
+  background-image: url(../development/ExportedPngs/bolognese.png);
+
 }
 
 #about {
@@ -181,7 +228,7 @@ h4 {
 
 #tech {
   background-color: white;
-  min-height: 100vh;
+
 }
 
 
