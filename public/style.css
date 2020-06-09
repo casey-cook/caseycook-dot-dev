@@ -58,6 +58,18 @@ a:hover {
 	outline-color: #61caff;
 }
 
+#blueOutline2 {
+	outline: solid;
+	outline-width: 1px;
+	outline-color: #00aaff;
+}
+
+#blueOutline2:hover {
+	outline: solid;
+	outline-width: 2px;
+	outline-color: #61caff;
+}
+
 @media screen and (max-width: 575px) {
 	#blueOutline {
 		outline: none;
@@ -264,9 +276,25 @@ h4 {
 
 @media screen and (max-width: 600px) {
 	#tech p {
-		font-size: 1em;
+		font-size: .8em;
+	}
+
+	#all-rows {
+		max-width: 90%;
+	}
+
+	#aboutText {
+		font-size: .93em;
 	}
 }
+
+@media screen and (max-width: 450px) {
+
+	#tech img {
+		width: 100%;
+	}
+}
+
 
 #contact {
 	background-color: #4a5958;
