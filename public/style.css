@@ -33,7 +33,6 @@ a:hover {
 	}
 }
 
-
 #navMain a {
 	color: white;
 	font-weight: 300;
@@ -185,6 +184,7 @@ h4 {
 	color: white;
 	transform: rotateY(180deg);
 	border-radius: 6px;
+	backface-visibility: hidden;
 }
 
 .flip-card a {
@@ -276,7 +276,7 @@ h4 {
 
 @media screen and (max-width: 600px) {
 	#tech p {
-		font-size: .8em;
+		font-size: 0.8em;
 	}
 
 	#all-rows {
@@ -284,17 +284,15 @@ h4 {
 	}
 
 	#aboutText {
-		font-size: .93em;
+		font-size: 0.93em;
 	}
 }
 
 @media screen and (max-width: 450px) {
-
 	#tech img {
 		width: 100%;
 	}
 }
-
 
 #contact {
 	background-color: #4a5958;
