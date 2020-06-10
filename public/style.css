@@ -155,7 +155,7 @@ h4 {
 .flip-card-inner {
 	height: 100%;
 	text-align: center;
-	transition: transform 0.6s;
+	transition: transform 0.5s;
 	transform-style: preserve-3d;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
@@ -340,6 +340,10 @@ footer img {
 	width: 38px;
 }
 
+#linked-in {
+	padding-left: 0px;
+}
+
 footer ul {
 	color: white;
 	list-style: none;
@@ -348,10 +352,6 @@ footer ul {
 
 .foot-li {
 	font-size: 0.8em;
-}
-
-#linked-in {
-	padding-left: 0px;
 }
 
 #small-contact {
