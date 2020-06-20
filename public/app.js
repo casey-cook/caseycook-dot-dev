@@ -43,7 +43,3 @@ document.getElementById("send").addEventListener("click", validateForm);
           message +
           "");
       }
-
-
-
-console.log('app js connected');
