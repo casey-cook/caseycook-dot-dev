@@ -10,8 +10,6 @@ window.onscroll = function () {
 	prevScrollpos = currentScrollPos;
 };
 
-
-
 //Snagging from form
 document.getElementById("send").addEventListener("click", validateForm);
       function validateForm() {
@@ -42,4 +40,9 @@ document.getElementById("send").addEventListener("click", validateForm);
           "&message=" +
           message +
           "");
+
+          //manual form reset
+          document.getElementById("contact-name").value = '';
+          document.getElementById("contact-email").value = '';
+          document.getElementById("contact-message").value = '';
       }
