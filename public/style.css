@@ -22,6 +22,10 @@ a:hover {
 	color: white;
 }
 
+#dark-link {
+	color: #00aaff;
+}
+
 .navbar {
 	position: fixed;
 	transition: top 0.3s;
@@ -187,12 +191,13 @@ h4 {
 	backface-visibility: hidden;
 }
 
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden; /* Safari */
-  backface-visibility: hidden;
+.flip-card-front,
+.flip-card-back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-backface-visibility: hidden; /* Safari */
+	backface-visibility: hidden;
 }
 
 .flip-card a {
