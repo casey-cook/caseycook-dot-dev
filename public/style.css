@@ -15,11 +15,13 @@ html {
 
 a {
 	color: white;
+	transition-duration: .6s !important;
 }
 
 a:hover {
 	text-decoration: none;
 	color: white;
+	transition-duration: .6s !important;
 }
 
 #dark-link {
@@ -47,30 +49,27 @@ a:hover {
 
 #navMain a:hover {
 	opacity: 70%;
+	color:  #61caff !important;
+	transition-duration: .3s;
 }
 
-#blueOutline {
-	outline: solid;
-	outline-width: 1px;
-	outline-color: #00aaff;
-}
-
-#blueOutline:hover {
-	outline: solid;
-	outline-width: 2px;
-	outline-color: #61caff;
+#navLogo a:hover {
+	opacity: 70%;
+	transition-duration: .3s;
 }
 
 #blueOutline2 {
 	outline: solid;
-	outline-width: 1px;
+	outline-width: .1em;
 	outline-color: #00aaff;
+	transition-duration: .2s;
 }
 
 #blueOutline2:hover {
 	outline: solid;
-	outline-width: 2px;
+	outline-width: .2em;
 	outline-color: #61caff;
+	transition-duration: .2s;
 }
 
 @media screen and (max-width: 575px) {
@@ -143,6 +142,23 @@ h4 {
 	min-height: 100vh;
 }
 
+
+
+#portfolioBtn {
+	margin: auto auto;
+	font-size: 1.1em;
+	font-weight: 300;
+}
+
+#hoverAnim {
+	transition-duration: .4s;
+}
+
+#hoverAnim:hover {
+	transform: translateY(5px);
+	transition-duration: .3s;
+}
+
 #testDiv {
 	height: 300px;
 }
@@ -154,18 +170,21 @@ h4 {
 	max-width: 400px;
 	perspective: 1000px;
 	margin: 0 auto;
+	backface-visibility: hidden;
 }
 
 .flip-card-inner {
 	height: 100%;
 	text-align: center;
-	transition: transform 0.6s;
+	transition-duration: .4s;
+	transition-timing-function: ease-in-out;
 	transform-style: preserve-3d;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .flip-card:hover .flip-card-inner {
 	transform: rotateY(180deg);
+	
 }
 
 .flip-card-front {
@@ -174,13 +193,12 @@ h4 {
 	height: 100%;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
-}
-
-.flip-card-front {
 	background-color: #bbb;
 	color: black;
 	border-radius: 6px;
+	
 }
+
 
 .flip-card-back {
 	background-color: #586b70;
@@ -197,7 +215,7 @@ h4 {
 	width: 100%;
 	height: 100%;
 	-webkit-backface-visibility: hidden; /* Safari */
-	backface-visibility: hidden;
+	transition-duration: .6s;
 }
 
 .flip-card a {
