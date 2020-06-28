@@ -1,3 +1,6 @@
+
+
+
 //Navbar animation stuff
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function () {
@@ -47,3 +50,9 @@ function sendMessage(name, email, message) {
 	document.getElementById('contact-email').value = '';
 	document.getElementById('contact-message').value = '';
 }
+
+$(".inline").modaal();
+
+$('.fullscreen').modaal({
+	fullscreen: true
+});
