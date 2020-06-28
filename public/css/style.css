@@ -31,10 +31,17 @@ a:hover {
 .navbar {
 	position: fixed;
 	transition: top 0.3s;
+	min-height: 72px;
 }
 
 @media screen and (max-width: 575px) {
 	#nav-logo {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 575px) {
+	#logo-sammie {
 		display: none;
 	}
 }
