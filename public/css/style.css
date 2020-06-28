@@ -89,7 +89,7 @@ a:hover {
 	width: 100%;
 	height: 110vh;
 	margin-top: -72px;
-	background: url('./img/splashmasked.jpg') no-repeat center center/cover;
+	background: url('../img/splashmasked.jpg') no-repeat center center/cover;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -215,6 +215,7 @@ h4 {
 	width: 100%;
 	height: 100%;
 	-webkit-backface-visibility: hidden; /* Safari */
+	backface-visibility: hidden;
 	transition-duration: .6s;
 }
 
@@ -261,21 +262,21 @@ h4 {
 }
 
 #card-front-1 {
-	background-image: url(./img/modernoffice.jpg);
+	background-image: url(../img/modernoffice.jpg);
 	background-position: center;
 }
 
 #card-front-2 {
-	background-image: url(./img/arcade1.jpg);
+	background-image: url(../img/arcade1.jpg);
 	background-position: center;
 }
 
 #card-front-3 {
-	background-image: url(./img/wetlands.jpg);
+	background-image: url(../img/wetlands.jpg);
 }
 
 #card-front-4 {
-	background-image: url(./img/carddesk.jpg);
+	background-image: url(../img/carddesk.jpg);
 }
 
 #about {
@@ -345,7 +346,7 @@ h4 {
 }
 
 #con-left {
-	background-image: url('./img/contact.png');
+	background-image: url('../img/contact.png');
 	background-position: center;
 	background-size: cover;
 }
