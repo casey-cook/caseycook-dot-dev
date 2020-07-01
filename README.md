@@ -1,6 +1,6 @@
 # Personal Portfolio Page
 
-[Live Page](http://www.caseycook.dev/) 
+[View Live Page](http://www.caseycook.dev/) 
 
 The goal of this project was to create a light-weight yet modern personal portfolio page for showcasing recent work. 
 
