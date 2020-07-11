@@ -24,7 +24,7 @@ a:hover {
 	transition-duration: .6s !important;
 }
 
-#dark-link {
+.dark-link {
 	color: #00aaff;
 }
 
